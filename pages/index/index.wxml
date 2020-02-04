@@ -1,0 +1,37 @@
+<view class="menu-page">
+  <view class="menu-city">
+    <view bindtap="getAddress">{{curWeather.city}}</view>
+  </view>
+  <view class="operate-btn">
+    <view class="left-btn">
+      <text>未知预警</text>
+    </view>
+    <view class="right-btn">海报</view>
+  </view>
+  <view class="cur-weather">
+    {{curWeather.curWeather}}
+  </view>
+  <view class="weather-info">
+    <view class="weather-info__air">
+       <text>{{curWeather.weather_desc}}</text> | <text>{{curWeather.air}} 优</text>
+    </view>
+    <view class="weather-info__cloud">
+      <text>风力 {{curWeather.win_speed}}</text> <text>湿度 {{curWeather.humidity}}%</text><text>气压 968hPa</text>
+    </view>
+  </view>
+  <view class="tip">
+  </view>
+  <view class="week-weather">
+    <view class="item" wx:for="{{ week }}">
+      <view class="item-left">
+        <!-- <text>{{item.}}</text> -->
+        <text>{{item.wea}}</text>
+        <text>{{item.day}} 优</text>
+      </view>
+      <view  class="item-right">
+        <text>{{item.tem2}} / {{item.tem1}}</text>
+      </view>
+    </view>
+    <view class="more-weather" bindtap="handleMore">未来15日天气预报 <text> > </text></view>
+  </view>
+</view>

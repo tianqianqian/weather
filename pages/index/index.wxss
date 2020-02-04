@@ -1,0 +1,77 @@
+.menu-page {
+  /* padding: 20px; */
+  padding-top: 20px;
+  padding: 20px 10px;
+}
+.menu-city {
+  text-align: center;
+  font-weight: bold;
+}
+.operate-btn {
+  margin-top:40px;
+  display: flex;
+}
+.operate-btn .left-btn {
+  flex: 1;
+}
+.left-btn text {
+  background-color: #51b4f7;
+  color: #fff;
+  padding: 4px 6px;
+  border-radius: 2px;
+}
+.operate-btn .right-btn {
+  background-color: #000;
+  opacity: 0.1;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 2px;
+}
+.cur-weather {
+  font-size: 100px;
+  text-align: center;
+}
+.weather-info {
+  align-content: center;
+}
+.weather-info__air {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.weather-info__air text:first-child {
+  margin-right: 20px;
+}
+.weather-info__air text:last-child {
+  background-color: #23b083;
+  padding: 2px 20px;
+  border-radius: 2px;
+  color: #fff;
+  margin-left: 20px;
+}
+.weather-info__cloud {
+  text-align: center;
+  color: #636e72;
+}
+.weather-info__cloud text {
+  margin-right: 20px;
+}
+.weather-info__cloud text:last-child{
+  margin-right: 0px;
+}
+.week-weather {
+  /* height: 80px; */
+  margin-top: 40px;
+}
+.week-weather .item {
+  display: flex;
+  padding: 10px;
+}
+.week-weather .item .item-left {
+  flex: 1;
+}
+.more-weather {
+  text-align: center;
+  color: blue;
+  cursor: pointer;
+}
+
