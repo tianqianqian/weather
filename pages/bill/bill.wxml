@@ -1,0 +1,28 @@
+<!-- 发票 -->
+<view class="bill-page">
+  <view class="top-operate">
+    <view class="top-item">
+      <image src="/images/add_bill.png" class="icon"></image>
+      <text>开发票</text>
+    </view>
+    <view class="top-item">
+      <image src="/images/bill_search.png" class="icon1"></image>
+      <text>发票查验</text>
+    </view>
+  </view>
+  <view class="my-bill">
+    <view class="left-content">
+      <image src="" class="icon"></image>
+      <text>我的发票</text>
+    </view>
+    <view class="more"> > </view>
+  </view>
+  <view class="bill-list">
+    <view>发票抬头</view>
+    <view class="list-item">
+      <view>金瓜子科技发展(北京)有限公司)</view>
+      <view>税号: 9111 0108 MA00 332F7P</view>
+    </view>
+    <view class="add-btn" bindtap="addBillHandle"> + 添加发票抬头</view>
+  </view>
+</view>

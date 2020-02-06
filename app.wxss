@@ -1,2 +1,2 @@
 /**app.wxss**/
-/* @import "/fonts/stylesheet.wxss"; */
+@import "/style/weui.wxss";

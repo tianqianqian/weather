@@ -1,13 +1,19 @@
 {
   "pages": [
+    "pages/bill/bill",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/addBill/addBill"
   ],
   "tabBar": {
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "首页"
+      },
+      {
+        "pagePath": "pages/bill/bill",
+        "text": "发票"
       },
       {
         "pagePath": "pages/logs/logs",

@@ -1,0 +1,69 @@
+.bill-page {
+  background-color: #f7f7f7;
+}
+.top-operate {
+  height: 400rpx;
+  display: flex;
+  align-items: center;
+  background-color: #3ab472;
+}
+.icon {
+  width: 80rpx;
+  height: 80rpx;
+}
+.icon1 {
+  width: 70rpx;
+  height: 80rpx;
+}
+.top-item {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.top-item image {
+  display: block;
+  margin-bottom: 10rpx;
+}
+.top-item text {
+  color: #fff;
+}
+.my-bill {
+  display: flex;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding-right: 20rpx;
+  background-color: #fff;
+}
+.left-content {
+  flex: 1;
+}
+.left-content image {
+  vertical-align: middle;
+}
+.bill-list {
+  margin-top: 40rpx;
+  background-color: #fff;
+  padding: 0px 40rpx;
+}
+.bill-list > view:first-child {
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  color: #666;
+  font-size: 12px;
+}
+.list-item {
+  padding-bottom: 40rpx;
+  border-bottom: solid 1px #c3c3c3;
+}
+.list-item view {
+  padding: 20rpx 0;
+}
+.list-item view:last-child {
+  color: #666;
+}
+.add-btn {
+  margin-top: 40rpx;
+  color: #07c160;
+}
