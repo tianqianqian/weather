@@ -10,16 +10,6 @@
             <input class="weui_input" type="tel" placeholder="请输入qq号" />
           </view>
         </view>
-        <view class="weui_cell weui_vcode">
-          <view class="weui_cell_hd">
-            <label class="weui_label">验证码</label>
-          </view>
-          <view class="weui_cell_bd weui_cell_primary">
-          </view>
-          <view class="weui_cell_ft">
-            <image> src="/assets/img/vcode.jpg"></image>
-          </view>
-        </view>
         <view class="weui_cell weui_cell_switch">
           <view class="weui_cell_hd weui_cell_primary">接受通知</view>
           <view class="weui_cell_ft">
